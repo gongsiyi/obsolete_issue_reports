@@ -17,4 +17,4 @@ We identified the obsolete ratios of the issue reports from nine projects. Their
 ## The full taxonomy of the knowledge
 
 We manually classified the knowledge learned from resolving the issue report. The full taxonomy is as follows：
-[RQ1andRQ2](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1andRQ2.xlsx)
+[RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
