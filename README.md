@@ -30,25 +30,25 @@ To explore the knowledge, distribution, and references of obsolete issue reports
 
 ## Our findings
 
-**RQ1. The Knowledge** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
+**RQ1. The Knowledge.** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
 We manually classified the knowledge learned from resolving the issue report. The full taxonomy is as follows：
 [RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
 
-**RQ2.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
+**RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
-**RQ3.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
+**RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
 We identified the obsolete ratios of the issue reports from nine projects. Their obsolete ratios are as follows: 
 [aries](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/aries.txt), [calcite](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/calcite.txt), [cassandra](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/cassandra.txt), [derby](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/derby.txt), [flink](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/flink.txt), [geode](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/geode.txt),  [hbase](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hbase.txt), [hive](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hive.txt), and [nutch](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/nutch.txt).
 
-**RQ4.** The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
+**RQ4. Reference in Code Comment.** The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
