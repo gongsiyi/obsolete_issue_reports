@@ -47,9 +47,11 @@ Fig2a.The_distribution_of_effective_knowledge_from_fresh_issue_reports
 Fig2b.The_distribution_of_effective_knowledge_from_obsolete_issue_reports
 ![effectiveness_ratio_reduction](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/effectiveness_ratio_reduction.jpg)
 Fig3.The effectiveness ratio reduction of knowledge
+
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
-![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
+![obsolete_ratios](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/obsolete_ratios_overview.jpg)
+Fig4.The ratios grouped by projects
 
 We identified the obsolete ratios of the issue reports from nine projects. Their obsolete ratios are as follows: 
 [aries](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/aries.txt), [calcite](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/calcite.txt), [cassandra](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/cassandra.txt), [derby](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/derby.txt), [flink](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/flink.txt), [geode](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/geode.txt),  [hbase](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hbase.txt), [hive](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hive.txt), and [nutch](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/nutch.txt).
