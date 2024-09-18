@@ -44,9 +44,9 @@ We manually classified the knowledge learned from resolving the issue report. Th
 ![fresh_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/fresh_issue_reports.jpg)
 Fig2a.The_distribution_of_effective_knowledge_from_fresh_issue_reports
 ![obsolete_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/obsolete_issue_reports.jpg)
-Fig2b.The_distribution_of_effective_knowledge_from_fresh_issue_reports
-![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
-
+Fig2b.The_distribution_of_effective_knowledge_from_obsolete_issue_reports
+![effectiveness_ratio_reduction](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/effectiveness_ratio_reduction.jpg)
+Fig3.The effectiveness ratio reduction of knowledge
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
