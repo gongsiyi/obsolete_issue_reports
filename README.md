@@ -58,8 +58,8 @@ We identified the obsolete ratios of the issue reports from nine projects. Their
 
 **RQ4. Reference in Code Comment.** The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
 
-![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
-
+![comment](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/comment.jpg)
+Fig5.The references in comments
 
 
 
