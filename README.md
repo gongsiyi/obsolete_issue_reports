@@ -18,6 +18,7 @@ To answer these questions, we build a tool, ICLinker, that calculates the obsole
 To explore the knowledge, distribution, and references of obsolete issue reports, as shown in the following figure, our analysis protocol has the following steps:
 
 ![analysis_overview](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
+Fig1. Analysis overview
 
 *Step 1. Calculating the obsolete ratios of issue reports.* We build a tool, ICLinker, to inspect the obsolete issue reports and calculate the obsolete ratios. ICLinker calculates an obsolete ratio for each issue report. It indicates to what degree an issue report is obsolete. ICLinker calculates the obsolete ratio by comparing the latest source file with the added lines of its commit.
 
@@ -40,7 +41,11 @@ We manually classified the knowledge learned from resolving the issue report. Th
 
 **RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
 
-![The_distribution_of_effective_knowledge_from_fresh_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/fresh_issue_reports.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
+![fresh_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/fresh_issue_reports.jpg)
+Fig2a.The_distribution_of_effective_knowledge_from_fresh_issue_reports
+![obsolete_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/obsolete_issue_reports.jpg)
+Fig2b.The_distribution_of_effective_knowledge_from_fresh_issue_reports
+![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
