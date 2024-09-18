@@ -33,13 +33,14 @@ To explore the knowledge, distribution, and references of obsolete issue reports
 **RQ1. The Knowledge.** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
 
 ![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
+Fig1. Analysis overview
 
 We manually classified the knowledge learned from resolving the issue report. The full taxonomy is as follows：
 [RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
 
 **RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
 
-![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
+![The_distribution_of_effective_knowledge_from_fresh_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/fresh_issue_reports.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg),![image](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
