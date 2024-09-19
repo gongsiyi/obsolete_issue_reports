@@ -92,16 +92,11 @@ Fig1. The effectiveness ratio reduction of knowledge
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
-![obsolete_ratios](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/obsolete_ratios_overview.jpg)
-Fig4. The ratios grouped by projects
-
 We identified the obsolete ratios of the issue reports from nine projects. Their obsolete ratios are as follows: 
 [aries](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/aries.txt), [calcite](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/calcite.txt), [cassandra](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/cassandra.txt), [derby](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/derby.txt), [flink](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/flink.txt), [geode](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/geode.txt),  [hbase](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hbase.txt), [hive](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hive.txt), and [nutch](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/nutch.txt).
 
 **RQ4. Reference in Code Comment.** The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
 
-![comment](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/comment.jpg)
-Fig5. The references in comments
 
 
 
