@@ -88,6 +88,10 @@ xychart-beta
     y-axis "Reduction" 0 --> 0.8
     bar [0.7128, 0.7082, 0.6932, 0.675, 0.6000, 0.5556, 0.5427, 0.5000, 0.4545, 0.4187, 0.3462, 0.1923, 0.1667]
 ```
+|K2.5|K2.1|K2.10|K2.2|K1.3|K2.9|K2.4|K2.3|K2.8|K1.2|K2.6|K1.1 |K2.7|
+| :------------- | :------------- | :-------------|:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:-------------|
+|0.7128|0.7082|0.6932|0.675|0.6000|0.5556|0.5427|0.5000|0.4545|0.4187|0.3462|0.1923|0.1667|
+
 Fig1. The effectiveness ratio reduction of knowledge. $$reduction_{e_{c}} = \frac{N_{e_{c_{0}}}}{N_{c_{0}}} - \frac{N_{e_{c_{1}}}}{N_{c_{1}}}$$ where $N_{e_{c_{0}}}$ is the number of fresh issue reports whose knowledge is effective, $N_{c_{0}}$ is the number of total fresh issue reports, $N_{e_{c_{1}}}$ is the number of obsolete issue reports whose knowledge is effective, and $N_{c_{1}}$ is the number of total obsolete issue reports.
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
@@ -97,6 +101,6 @@ We identified the obsolete ratios of the issue reports from nine projects. Their
 
 **RQ4. Reference in Code Comment.** The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
 
-
+## Our findings
 
 
