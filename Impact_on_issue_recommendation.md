@@ -1,6 +1,6 @@
 ## Summary
 
-When Tan et al. designed CrossFix, they did not consider obsolete issue reports. Given an open bug report, CrossFix can retrieve a list of relevant fixed bug reports with similar stack traces, triggering conditions, or titles. However, the recommended bug reports can be obsolete. Our ICLinker can help CrossFix to idenfify the obsolete recommended bug reports. According to our results, 36% of its recommendations are obsolete and we improve all such recommendations.
+When Tan et al. designed CrossFix, they did not consider obsolete issue reports. Given an open bug report, CrossFix can retrieve a list of relevant fixed bug reports with similar stack traces, triggering conditions, or titles. However, the recommended bug reports can be obsolete. We (our tool, ICLinker) can help CrossFix to idenfify the obsolete recommended bug reports. According to our results, 36% of its recommendations are obsolete and we improve all such recommendations.
 
 ## Result
 |aries|calcite|cassandra|derby|flink|geode|hbase|hive|nutch|
