@@ -33,7 +33,53 @@ Fig1. Analysis overview
 
 **RQ1. The Knowledge.** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
 
-![RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.jpg)
+<table border="13" >
+	<tr >
+		<td rowspan="2">跨两行的单元格</td>
+		<td>第一格</td>
+	</tr>
+	<tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  	<tr >
+		<td rowspan="10">跨两行的单元格</td>
+		<td>第一格</td>
+	</tr>
+	<tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+  <tr >
+		<td>第二格</td>
+	</tr>
+</table>
+
 Fig1. The full taxonomy
 
 We manually classified the knowledge learned from resolving the issue report. The full taxonomy is as follows：
