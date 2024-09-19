@@ -58,7 +58,7 @@ Table 1. The full taxonomy of knowledge. $$ratio_{c} = \frac{N_{c}}{N_{all}}$$ w
 
 
 We manually classified the knowledge learned from resolving the issue report. The details are in：
-[RQ1_obsolete_ratio_1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_1.md) and [RQ1_obsolete_ratio_0](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_0.md)
+[RQ1_obsolete_ratio_1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_1.md), [RQ1_obsolete_ratio_0](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_0.md)
 
 **RQ2. Can obsolete issue reports affect their knowledge?**
 Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
