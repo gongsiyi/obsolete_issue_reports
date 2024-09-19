@@ -33,54 +33,52 @@ Fig1. Analysis overview
 
 **RQ1. The Knowledge.** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
 
+Table 1. The full taxonomy of knowledge
 <table border="13" >
 	<tr >
-		<td rowspan="2">跨两行的单元格</td>
-		<td>第一格</td>
+		<td rowspan="3">K1. Domain Knowledge(99/396, 25%)</td>
+		<td>K1.1. API call (49/396, 12.37%)</td>
 	</tr>
 	<tr >
-		<td>第二格</td>
+		<td>K1.2. Compile configuration (41/396, 10.35%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K1.3. Others (9/396, 2.27%)</td>
 	</tr>
   	<tr >
-		<td rowspan="10">跨两行的单元格</td>
-		<td>第一格</td>
+		<td rowspan="10">K2. Project-specific Knowledge (297/396, 75%)</td>
+		<td>K2.1. Document (message) (55/396, 13.89%)</td>
 	</tr>
 	<tr >
-		<td>第二格</td>
+		<td>K2.2. Algorithm (54/396, 13.64%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.3. Configuration (45/396, 11.36%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.4. Test (44/396, 11.11%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.5. Initialization (28/396, 7.07%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.6. Debug (19/396, 4.80%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.7. Refactoring (13/396, 3.28%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.8. Script (11/396, 2.78%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
+		<td>K2.9. Annotations (10/396, 2.53%)</td>
 	</tr>
   <tr >
-		<td>第二格</td>
-	</tr>
-  <tr >
-		<td>第二格</td>
+		<td>K2.10. Others (18/396, 4.55%)</td>
 	</tr>
 </table>
 
-Fig1. The full taxonomy
+
 
 We manually classified the knowledge learned from resolving the issue report. The full taxonomy is as follows：
 [RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
