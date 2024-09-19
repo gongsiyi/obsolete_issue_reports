@@ -83,13 +83,12 @@ We manually classified the knowledge learned from resolving the issue report. Th
 **RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
 ```mermaid
 xychart-beta
-    title "Sales Revenue"
-    x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
-    y-axis "Revenue (in $)" 4000 --> 11000
-    bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
-    line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+    title "The effectiveness ratio reduction"
+    x-axis [K2.5, K2.1, K2.10, K2.2, K1.3, K2.9, K2.4, K2.3, K2.8, K1.2, K2.6, K1.1, K2.7]
+    y-axis "Reduction" 0 --> 0.8
+    bar [0.7128, 0.7082, 0.6932, 0.675, 0.6000, 0.5556, 0.5427, 0.5000, 0.4545, 0.4187, 0.3462, 0.1923, 0.1667]
 ```
-Fig3. The effectiveness ratio reduction of knowledge
+Fig1. The effectiveness ratio reduction of knowledge
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
