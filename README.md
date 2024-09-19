@@ -81,12 +81,14 @@ We manually classified the knowledge learned from resolving the issue report. Th
 [RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
 
 **RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
-
-![fresh_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/fresh_issue_reports.jpg)
-Fig2a. The_distribution_of_effective_knowledge_from_fresh_issue_reports
-![obsolete_issue_reports](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/obsolete_issue_reports.jpg)
-Fig2b. The_distribution_of_effective_knowledge_from_obsolete_issue_reports
-![effectiveness_ratio_reduction](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/effectiveness_ratio_reduction.jpg)
+```mermaid
+xychart-beta
+    title "Sales Revenue"
+    x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
+    y-axis "Revenue (in $)" 4000 --> 11000
+    bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+    line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+```
 Fig3. The effectiveness ratio reduction of knowledge
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
