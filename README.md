@@ -15,10 +15,7 @@ To answer these questions, we build a tool, ICLinker, that calculates the obsole
 **RQ4. How are obsolete issue reports mentioned in the code comments?**
 
 ## General protocol
-To explore the knowledge, distribution, and references of obsolete issue reports, as shown in the following figure, our analysis protocol has the following steps:
-
-![analysis_overview](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/analysis_overview.jpg)
-Fig1. Analysis overview
+To explore the knowledge, distribution, and references of obsolete issue reports, our analysis protocol has the following steps:
 
 *Step 1. Calculating the obsolete ratios of issue reports.* We build a tool, ICLinker, to inspect the obsolete issue reports and calculate the obsolete ratios. ICLinker calculates an obsolete ratio for each issue report. It indicates to what degree an issue report is obsolete. ICLinker calculates the obsolete ratio by comparing the latest source file with the added lines of its commit.
 
