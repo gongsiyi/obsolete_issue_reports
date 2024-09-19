@@ -81,13 +81,7 @@ We manually classified the knowledge learned from resolving the issue report. Th
 [RQ1](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1.xlsx)
 
 **RQ2. The Effectiveness of Knowledge.** Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
-```mermaid
-xychart-beta
-    title "The effectiveness ratio reduction"
-    x-axis [K2.5, K2.1, K2.10, K2.2, K1.3, K2.9, K2.4, K2.3, K2.8, K1.2, K2.6, K1.1, K2.7]
-    y-axis "Reduction" 0 --> 0.8
-    bar [0.7128, 0.7082, 0.6932, 0.675, 0.6000, 0.5556, 0.5427, 0.5000, 0.4545, 0.4187, 0.3462, 0.1923, 0.1667]
-```
+
 |K2.5|K2.1|K2.10|K2.2|K1.3|K2.9|K2.4|K2.3|K2.8|K1.2|K2.6|K1.1 |K2.7|
 | :------------- | :------------- | :-------------|:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:-------------|
 |0.7128|0.7082|0.6932|0.675|0.6000|0.5556|0.5427|0.5000|0.4545|0.4187|0.3462|0.1923|0.1667|
