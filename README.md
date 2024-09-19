@@ -30,7 +30,6 @@ To explore the knowledge, distribution, and references of obsolete issue reports
 
 **RQ1. The Knowledge.** Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
 
-Table 1. The full taxonomy of knowledge
 <table border="13" >
 	<tr >
 		<td rowspan="3">K1. Domain Knowledge(99/396, 25%)</td>
@@ -75,6 +74,7 @@ Table 1. The full taxonomy of knowledge
 	</tr>
 </table>
 
+Table 1. The full taxonomy of knowledge. $$ratio_{c} = \frac{N_{c}}{N_{all}}$$, where $N_{c}$ is the number of the knowledge in category $C$, and $N_{all}$ is the number of all the knowledge learned from resolving issue reports, i.e., 396.
 
 
 We manually classified the knowledge learned from resolving the issue report. The details are in：
@@ -88,7 +88,7 @@ xychart-beta
     y-axis "Reduction" 0 --> 0.8
     bar [0.7128, 0.7082, 0.6932, 0.675, 0.6000, 0.5556, 0.5427, 0.5000, 0.4545, 0.4187, 0.3462, 0.1923, 0.1667]
 ```
-Fig1. The effectiveness ratio reduction of knowledge
+Fig1. The effectiveness ratio reduction of knowledge. $$reduction_{e_{c}} = \frac{N_{e_{c_{0}}}}{N_{c_{0}}} - \frac{N_{e_{c_{1}}}}{N_{c_{1}}}$$, where $N_{e_{c_{0}}}$ is the number of fresh issue reports whose knowledge is effective, $N_{c_{0}}$ is the number of total fresh issue reports, $N_{e_{c_{1}}}$ is the number of obsolete issue reports whose knowledge is effective, and $N_{c_{1}}$ is the number of total obsolete issue reports.
 
 **RQ3. The Distribution.** Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
 
