@@ -1,4 +1,4 @@
-# Understanding the Warning from Obsolete Issue Reports
+# Understanding Obsolete Knowledge Learned from Resolving Issues Reports
 
 ## Project summary
 
