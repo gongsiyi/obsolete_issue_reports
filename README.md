@@ -7,8 +7,15 @@ In software development, programmers use issue trackers to manage maintenance is
 In this paper, we conducted the first empirical study about the unreliable knowledge to answer the above questions. In particular, we analyzed the issue reports and their patches from 9 Apache projects. We manually build a taxonomy of the knowledge learned from fixed issue reports and analyze whether they become obsolete or unreliable for the latest source files. We find that more project-specific knowledge is learned than domain knowledge from issue reports. In some issue reports, the added code lines of their patches are overwritten or rolled back. Based on this observation, we define an obsolete ratio of an issue report as its deleted lines over all its modified lines. We call an issue report obsolete if its added code lines are all deleted from the latest source files. We find that the obsolete ratios are correlated with unreliable knowledge in issue reports, especially for project-specific knowledge. Furthermore, we analyze the distribution of obsolete issue reports and their references in code comments. We find that obsolete issue reports are mixed with other issue reports. Besides deriving findings, we analyze how obsolete issue reports affect an issue recommendation approach. According to our results, 36% of its recommendations are obsolete and we improve all such recommendations.
 
 ## Our findings
-**RQ1. What kinds of knowledge can be learned from resolving issue reports?**
-Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 1).
+
+**RQ1. How many obsolete issue reports are there?**
+If a project has a long history, about 40% of its issue reports are obsolete. (Finding 1). Recent issue reports have lower obsolete ratios than old issue reports. (Finding 2).
+
+We identified the obsolete ratios of the issue reports from nine projects. Their obsolete ratios are as follows: 
+[aries](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/aries.txt), [calcite](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/calcite.txt), [cassandra](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/cassandra.txt), [derby](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/derby.txt), [flink](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/flink.txt), [geode](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/geode.txt),  [hbase](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hbase.txt), [hive](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hive.txt), and [nutch](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/nutch.txt).
+
+**RQ2. What kinds of knowledge can be learned from resolving issue reports?**
+Based on whether the knowledge is specific to a project, we classify the knowledge into domain knowledge and project-specific knowledge. In particular, project-specific knowledge is learned for 75% of issue reports. The most frequent project-specific knowledge is about writing documents and algorithms, and the most frequent domain knowledge is about API calls (Finding 3).
 
 <table border="13" >
 	<tr >
@@ -60,8 +67,8 @@ Table 1. The full taxonomy of knowledge. $$ratio_{c} = \frac{N_{c}}{N_{all}}$$ w
 We manually classified the knowledge learned from resolving the issue report. The details are in：
 [RQ1_obsolete_ratio_1.md](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_1.md), [RQ1_obsolete_ratio_0.md](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/RQ1_obsolete_ratio_0.md)
 
-**RQ2. Can obsolete issue reports affect their knowledge?**
-Obsolete issue reports significantly affect their embedded knowledge (Finding 2). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 3).
+**RQ3. Can obsolete issue reports affect their knowledge?**
+Obsolete issue reports significantly affect their embedded knowledge (Finding 4). Compared to domain knowledge, project-specific knowledge is more likely to be affected by obsolete issue reports. Among them, the initializations are the most affected knowledge, and its reduction of effectiveness ratio is 0.7128 (Finding 5). The obsolete ratio of an issue report is an indicator of the obsolete knowledge (Finding 6).
 
 |K2.5|K2.1|K2.10|K2.2|K1.3|K2.9|K2.4|K2.3|K2.8|K1.2|K2.6|K1.1 |K2.7|
 | :------------- | :------------- | :-------------|:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:------------- | :------------- | :------------- |:-------------|
@@ -69,16 +76,11 @@ Obsolete issue reports significantly affect their embedded knowledge (Finding 2)
 
 Table 2. The effectiveness ratio reduction of knowledge. $$reduction_{e_{c}} = \frac{N_{e_{c_{0}}}}{N_{c_{0}}} - \frac{N_{e_{c_{1}}}}{N_{c_{1}}}$$ where $N_{e_{c_{0}}}$ is the number of fresh issue reports whose knowledge is effective, $N_{c_{0}}$ is the number of total fresh issue reports, $N_{e_{c_{1}}}$ is the number of obsolete issue reports whose knowledge is effective, and $N_{c_{1}}$ is the number of total obsolete issue reports.
 
-**RQ3. How many obsolete issue reports are there?**
-Projects with more commits typically have higher obsolete ratios (Finding 4). Recent issue reports have lower obsolete ratios than old issue reports. Despite the trends, obsolete issue reports are mixed with other issue reports (Finding 5).
+**RQ4. How do obsolete issues affect a recent approach?**
+We also analyze how obsolete issue reports affect an issue-recommendation approach, called CrossFix [1]. Obsolete issue reports affect the results. In particular, 48.18% of its recommended issues are obsolete, and the obsolete ratio median is 0.4683 (Finding 7).
 
-We identified the obsolete ratios of the issue reports from nine projects. Their obsolete ratios are as follows: 
-[aries](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/aries.txt), [calcite](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/calcite.txt), [cassandra](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/cassandra.txt), [derby](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/derby.txt), [flink](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/flink.txt), [geode](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/geode.txt),  [hbase](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hbase.txt), [hive](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/hive.txt), and [nutch](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/nutch.txt).
+The details are in： [Impact_on_issue_recommendation.md (https://github.com/gongsiyi/obsolete_issue_reports/blob/main/Impact_on_issue_recommendation.md)
 
-**RQ4. How are obsolete issue reports mentioned in the code comments?**
-The obsolete ratio medians of issue references in code comments are around 0.5, and obsolete references are mixed with other references (Finding 6).
 
-## Impact on issue recommendation
 
-We also analyze how obsolete issue reports affect an issue-recommendation approach, called CrossFix [1]. The details are in：
-[Impact_on_issue_recommendation.md](https://github.com/gongsiyi/obsolete_issue_reports/blob/main/Impact_on_issue_recommendation.md)
+
